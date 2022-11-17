@@ -1,0 +1,18 @@
+import javax.swing.*;
+class test
+{
+	public static void main(String []a)
+	{
+		String str1,str2;
+		str1=JOptionPane.showInputDialog("Enter a string");
+		str2=JOptionPane.showInputDialog("Enter a string");
+		if(str1.equals(str2))
+		{
+			System.out.println("Both are equals");
+		}
+		else
+		{
+			System.out.println("Both are not equals");
+		}3
+	}
+}
