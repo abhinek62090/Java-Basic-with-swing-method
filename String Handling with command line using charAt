@@ -1,0 +1,19 @@
+import javax.swing.*;
+class test
+{
+	public static void main(String []a)
+	{
+		int i;
+		for(i=0;i<a.length;i++)
+		{
+			System.out.println("First Character is "+a[i].charAt(0));
+		}
+	}
+}
+
+C:\Users\Hp\OneDrive\Desktop\Java>javac charatcmd.java
+
+C:\Users\Hp\OneDrive\Desktop\Java>java test Praveen Kumar Amit
+First Character is P
+First Character is K
+First Character is A
