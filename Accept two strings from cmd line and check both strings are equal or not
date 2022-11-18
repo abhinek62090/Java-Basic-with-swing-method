@@ -1,0 +1,37 @@
+class test
+{
+	public static void main(String []a)
+	{
+		int i;
+		if(a.length==2)
+			{
+				if(a[0].equals(a[1]))
+				{
+					System.out.println("Both are equal");
+				}
+				else
+				{
+					System.out.println("Both are not equal");
+				}
+			}
+			else
+			{
+				System.out.println("Only two strings are allowed");
+			}
+		}
+	
+}
+
+C:\Users\Hp\OneDrive\Desktop\Java>javac equalscmd.java
+
+C:\Users\Hp\OneDrive\Desktop\Java>java test Praveen
+Only two strings are allowed
+
+C:\Users\Hp\OneDrive\Desktop\Java>java test Praveen Kumar Lal
+Only two strings are allowed
+
+C:\Users\Hp\OneDrive\Desktop\Java>java test Praveen Kumar
+Both are not equal
+
+C:\Users\Hp\OneDrive\Desktop\Java>java test Praveen Praveen
+Both are equal
